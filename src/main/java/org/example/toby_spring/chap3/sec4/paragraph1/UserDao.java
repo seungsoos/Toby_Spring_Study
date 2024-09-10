@@ -10,7 +10,7 @@ import java.sql.SQLException;
  * UserDao 와 JdbcContext 간의
  * 인터페이스를 사용하지 않고 DI를 적용
  */
-@Component
+//@Component
 public class UserDao {
 
     private JdbcContext jdbcContext;

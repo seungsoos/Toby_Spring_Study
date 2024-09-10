@@ -13,7 +13,7 @@ public class DaoFactory {
         return userDao;
     }
 
-    @Bean
+//    @Bean
     public ConnectionMaker connectionMaker() {
         return new DConnectionMaker();
     }
